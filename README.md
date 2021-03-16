@@ -9,7 +9,7 @@ https://germanbodenbender.github.io/GOB-data_management-/
 
 
 PART 02: FINAL ASSIGNMENTS on HEROKU APP
-https://lunarc.herokuapp.com/examples/index.html
+https://lunark.herokuapp.com/examples/index.html
 
 CREDITS
 Senior Faculty: Luis Fraguada and Will Pearson
