@@ -1,0 +1,253 @@
+<!-- IAAC MACAD - SEMINAR 02: DIGITAL TOOLS FOR CLOUD BASED DATA MANAGEMENT-->
+<!-- Created by German Otto Bodenbender -->
+<!-- FINAL ASSIGNMENT  //   2021-03-15  // -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MACAD + BIMSC  //  DATA MANAGEMENT</title>
+        <style>
+            A {text-decoration: none;} 
+            body { 
+                font-family: monospace; 
+                background: rgb(255, 255, 255);
+                margin: 0;
+                padding: 0px;
+                color:white;
+                
+            }
+
+            h1 {font-size: 300%; color: #000000;line-height: 0%;
+                padding-bottom: 0%;
+                padding-top:386px; margin-bottom: 00%;margin-top: 0%;padding-right: 11%; position: relative;text-align: right;}
+            
+            h2 {font-size: 159%; color: #000000;line-height: 0%;padding-bottom: 0%;
+                padding-top:40px; margin-bottom: 00%;margin-top: 0%;padding-right: 11%; position: relative;text-align: right;}
+
+            h3 {font-size: 600%; color: #000000;line-height: 0%;padding-bottom: 20px;padding-left: 110px;margin: 0px;}
+
+            h4 {font-size: 150%; color: #000000;line-height: 130%;padding-bottom: 10px;padding-left: 110px;}
+            h5 {font-size:35px; color: #000000;line-height: 100%;padding-bottom: 10px;padding-left: 20px;padding-right: 20px; padding-top: 10px;margin: 0px;
+                border: 1px solid rgb(0, 0, 0);
+                text-align: center;
+            }
+            h6 {font-size: 130%; color: #000000;line-height: 100%;padding-bottom: 5px;padding-left: 110px;padding-top: 5px;margin: 0px;padding-right: 0px;
+            }
+
+            table {border-left: 100px solid rgb(255, 255, 255); border-collapse: collapse; border-spacing:100px;font-size: 110%;}
+            table td {
+                border-left: 30px solid rgb(255, 255, 255);
+                padding: 10px;
+            }
+            table td:first-child { border-left: none; }
+            
+            .heading {padding-top: 0pt;padding-bottom: 20px;font-size: 150%;color: rgb(0, 0, 0);}
+            .heading:hover {
+                color: rgb(153, 153, 153);
+            }
+            #container { position: relative; }
+            #container canvas, #overlay { position: absolute; }
+            
+            .overlay {
+              background-color: rgb(255, 255, 255);
+              
+            }
+            .overlay:hover{
+                color: rgb(0, 0, 0);
+            }
+
+            
+            .header {
+                height: 24cm;
+                padding: 0%;
+                background:rgb(255, 255, 255);
+                color: rgb(255, 255, 255);
+                background-image: url(cover-final.jpg);
+                background-repeat: no-repeat;
+                background-position-y: top;
+                background-position-x: center;
+            }
+
+            .german {
+                size: 3px;
+                height: 5cm;
+                padding: 10%;
+                background-image: url(german.jpg);
+                background-repeat: no-repeat;
+                background-position-y: top;
+                background-position-x: center;
+            }
+
+            .iaac{
+                background-position: left;
+                background-size: 400px;
+                padding-top:100px;
+                padding-right: 200px;
+                background-image: url(iaac.png);
+                background-repeat: no-repeat;
+                padding-left: 200px;
+            }
+
+            .gradient {
+                height: 7cm;
+                padding: 0%;
+                background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+            }
+
+            .reversegradient {
+                height: 7cm;
+                padding: 0%;
+                background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+            }
+
+            .space {
+                height: 7cm;
+                padding: 0%;
+                background-image: color rgb(255, 255, 255);
+            }
+
+            .smallspace {
+                height: 3cm;
+                padding: 0%;
+                background-image: color rgb(255, 255, 255);
+            }
+
+            .whitespace {
+                height: 12cm;
+                padding: 0%;
+                background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+            }
+
+            .side {
+                -ms-flex: 30%; /* IE10 */
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+                }
+
+            /* Main column */
+            .main {   
+                -ms-flex: 70%; /* IE10 */
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+            }
+
+            .iframe {
+                position: relative;
+                 overflow: hidden;
+                padding-top: 0px;
+                padding-left: 50px;
+            }
+
+            
+
+            
+        </style>
+       
+    </head>
+    <body>
+        <div class="header">
+            <h1 >IAAC-MaCad   //   SEMINAR 01</h1>
+            <h2 >DIGITAL TOOLS FOR CLOUD BASED DATA MANAGEMENT</h2>
+        </div>
+        <div class="gradient"></div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <h3 class="overlay">01 // ASSINGMENTS</h1>
+        <h4 class="overlay">COMPILATION OF EARLY EXCERCISES THAT SHOWS THE CONCEPTS OF HTML, JAVASCRIPT <br> AND CSS IMLEMENTED ON GITHUB PAGES AS WELL AS THE USE OF THREE.JS LIBRARIES </h4>
+
+        <hr>
+        </div>
+
+        <table>
+            <tr>
+                <br />
+                <br />
+                <td class="heading"><a href="./01_01_ubuntu/"><h5>+A1-01  <br> HTML PAGE   </a></td>
+                <td class="heading">First seminar assignment where we learn how to create github pages and <br>push HTML and Javascript code to create our very first website.</td>
+            </tr>
+            <tr>
+                <td class="heading"><a href="./02_01_ubuntumodel/"><h5>+A2-01> <br>  RHINO MODEL   </h5</a></td>
+                <td class="heading">Second seminar assignment where we learn to use the 3DM model loader from <br>the Three JS library.</td>
+            </tr>
+            <tr>
+                <td class="heading"><a href="./02_02_gamemodel/"><h5>+A2-02  <br> VIEW COMMANDS   </h5></a></td>
+                <td class="heading">Exploration on different ways to navigate 3D models. Example from <br>the Three JS website.</td>
+            </tr>
+        </table>
+        
+        <br />
+        <br />
+        <hr>
+
+        <div class="smallspace"></div>
+
+        <h4>ASSIGNMENT 01 // CREATING OUR FIRST HTML GITHUB PAGE</h4>
+        <div class="iframe">
+            <iframe class="iframe" src="./01_01_ubuntu" width="1500" height="900" ></iframe>
+        </div>
+
+        <h4>ASSIGNMENT 02.1 // IMPORT 3DM COMMAND</h4>
+        <div class="iframe">
+            <iframe class="iframe" src="./02_01_ubuntumodel" width="1500" height="900" ></iframe>
+        </div>
+
+        <h4>ASSIGNMENT 02.2 // LEARNING CAMERA MOVEMENTS // EXAMPLE FROM THREE.JS</h4>
+        <div class="iframe">
+            <iframe class="iframe" src="./02_02_gamemodel" width="1500" height="900" ></iframe>
+        </div>
+
+
+            
+
+        <div class="space"></div>
+
+        <h3 class="overlay">02 // FINAL PROJECT</h3>
+        <h4 class="overlay">A SERIES OF EXCERCISES THAT SHOWCASE THE RHINO.COMPUTE WORKFLOW AND HEROKU APP <br> SERVICES USING GRASSHOPPER DEFINITIONS CREATED DURING THE SEMINAR.<br> TO ACCESS THE PROJECT, CLICK ON THE LINK BELOW!</h4>
+    
+        <hr>
+        </div>
+
+        <table>
+            <tr>
+                <br />
+                <br />
+                <br />
+                <td class="heading"><a href="https://lunarc.herokuapp.com/examples/index.html"><h5>HEROKU<br>LUNAR COMMUNITY   </a></td>
+                <td class="heading">Click on the link to visist LUNAR, the final project submission.</td>
+            </tr>
+            
+        </table>
+        <br />
+        <br />
+        <br />
+        <hr>
+
+        <div class="space"></div>
+
+        <h3 class="overlay">03 // CREDITS AND RESOURCES</h3>
+        <h4 class="overlay">ALL THE CONTENT SHOWED ON THIS WEBSITE WERE PRODUCE FOR THE DATA MANAGEMENT SEMINAR AT IAAC MASTER'S IN <br>
+            ADVANCE COMPUTATION FOR ARCHITECTURE AND DESIGN</h4>
+        
+        <h6>SENIOR FACULTY: LUIS FRAGUADA</h6>
+        <h6>SENIOR FACULTY: WILL PEARSON</h6>
+        <h6>STUDENT: GERMAN OTTO BODENBENDER</h6>
+        <h6>SOURCE CODE: https://github.com/germanbodenbender</h6>
+        <h6>APP: HEROKU APP SERVICES</h6>
+        <h6>SERVER: IAAC MACAD RHINO SERVER</h6>
+
+        
+        <br />
+        <br />
+        <br />
+
+        <div class="iaac"></div>
+
+        
+    </body>
+</html>
