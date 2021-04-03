@@ -6,7 +6,7 @@ import { color, GUI } from './dat.gui.module.js'
 
 let camera, scene, raycaster, renderer, gui
 const mouse = new THREE.Vector2()
-window.addEventListener( 'click', onClick, false);
+
 
 init()
 animate()
